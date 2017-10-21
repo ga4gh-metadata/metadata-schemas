@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package ga4gh;
+package ga4ghmetadata;
 
-import "ga4gh/common.proto";
+import "ga4gh-metadata/common.proto";
 
 
 // An individual (or subject) typically corresponds to an individual
@@ -145,7 +145,7 @@ message Biosample {
 // If available, a quantitative value should be used & take precedence over the
 // age class, and class assignment should be performed at user/API level.
 message Age {
-  
+
   // The :ref:`ISO 8601<metadata_date_time>` age of this object as ISO8601
   // duration or time intervals. The use of time intervals makes an additional
   // anchor unnecessary (i.e. DOB and age can be represented as start-anchored
