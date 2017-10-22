@@ -4,17 +4,10 @@ The *GA4GH-Metadata* repository contains definitions for structures, relations a
 
 The metadata specifications presented here were developed by the GA4GH's Metadata Task Team, as part of the (now frozen) general [GA4GH data schema](https://github.com/ga4gh/ga4gh-schemas/).
 
-[Bio Metadata](https://github.com/ga4gh-metadata/ga4gh-metadata/blob/master/schema/bio_metadata.proto)
-
-* [download specification](./schema/bio_metadata.proto)
-
-[Process Metadata](https://github.com/ga4gh-metadata/ga4gh-metadata/blob/master/schema/process_metadata.proto)
-
-* [download specification](./schema/process_metadata.proto)
-
-[Common Metadata Elements](https://github.com/ga4gh-metadata/ga4gh-metadata/blob/master/schema/common.proto)
-
-* [download specification](./schema/common.proto)
+[Metadata Specifications on Github](https://github.com/ga4gh-metadata/ga4gh-metadata/blob/master/schema/)
+* [download *bio metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schema/bio_metadata.proto)
+* [download *process metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schema/process_metadata.proto)
+* [download *common metadata elements* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schema/common.proto)
 
 
 
