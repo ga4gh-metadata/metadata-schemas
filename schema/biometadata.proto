@@ -2,12 +2,10 @@ syntax = "proto3";
 
 package ga4ghmetadata;
 
-import "ga4gh-metadata/common.proto";
-
+import "ga4gh-metadata/shared.proto";
 
 // An individual (or subject) typically corresponds to an individual
 // human or another organism.
-
 message Individual {
   // The Individual's :ref:`id <apidesign_object_ids>`. This is unique in the
   // context of the server instance.

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package ga4ghmetadata;
 
-import "ga4gh-metadata/common.proto";
+import "ga4gh-metadata/shared.proto";
 
 // An experimental preparation of a sample.
 message Experiment {
