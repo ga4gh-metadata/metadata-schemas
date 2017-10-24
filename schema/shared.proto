@@ -17,19 +17,21 @@ message GAException {
   string message = 2;
 }
 
-// Identifier from a public database, describing a different representation of
-// the same record (e.g. variant, biosample, individual).
-// TODO: Bring attribute names and descriptions in line with general use, as
-// demonstrated e.g. for OntologyTerm objects.
+// Identifier from a public database, describing a representation of
+// the record, and the relation between record and external reference
+// (e.g. as IAO property)
+// Example:
+//  {
+//    "relation" : "reported_in",
+//    "identifier" : "pubmed:25752754"
+//  }
+//
 message ExternalIdentifier {
-  // The source of the identifier, e.g. `Ensembl`.
-  string database = 1;
+  // The CURIE of the identifier.
+  string identifier = 1;
 
-  // The ID defined by the external database, e.g. `ENST00000000000`.
-  string identifier = 2;
-
-  // The version of the object or the database, e.g. `78`.
-  string version = 3;
+  // The relation between identifier and the object ist was reported from.
+  string relation = 2;
 }
 
 // An ontology term describing an attribute. (e.g. the phenotype attribute
