@@ -5,9 +5,9 @@ The *GA4GH-Metadata* repository contains definitions for structures, relations a
 The metadata specifications presented here were developed by the GA4GH's Metadata Task Team, as part of the (now frozen) general [GA4GH data schema](https://github.com/ga4gh/ga4gh-schemas/).
 
 [Metadata Specifications on Github](https://github.com/ga4gh-metadata/ga4gh-metadata/)
-* [download *common metadata elements* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schema/shared.proto)
-* [download *bio metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schema/biometadata.proto)
-* [download *assay metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schema/assaymetadata.proto)
+* [download *common metadata elements* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/shared.proto)
+* [download *bio metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/biometadata.proto)
+* [download *assay metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/assaymetadata.proto)
 
 The web version of this page can be accessed [here](http://meta.ga4ghdata.org).
 
