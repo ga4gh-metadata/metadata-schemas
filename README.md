@@ -11,16 +11,6 @@ The metadata specifications presented here were developed by the GA4GH's Metadat
 
 The web version of this page can be accessed [here](http://meta.ga4ghdata.org).
 
-
----
-{% include_relative docs/shared.md %}
----
-{% include_relative docs/biometadata.md %}
----
-{% include_relative docs/assaymetadata.md %}
----
-
-
 <!--
 [Bio-Metadata (full path)](https://github.com/ga4gh-metadata/ga4gh-metadata/blob/master/schema/bio_metadata.proto)
 -->
