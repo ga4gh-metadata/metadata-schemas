@@ -9,9 +9,8 @@ The metadata specifications presented here were developed by the GA4GH's Metadat
 * [download *bio metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schema/biometadata.proto)
 * [download *assay metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schema/assaymetadata.proto)
 
-The web version of this page can be accessed [here](http://meta.ga4ghdata.org)
+The web version of this page can be accessed [here](http://meta.ga4ghdata.org).
 
-<!--
 
 ---
 {% include_relative doc/shared.md %}
@@ -21,7 +20,6 @@ The web version of this page can be accessed [here](http://meta.ga4ghdata.org)
 {% include_relative doc/assaymetadata.md %}
 ---
 
--->
 
 <!--
 [Bio-Metadata (full path)](https://github.com/ga4gh-metadata/ga4gh-metadata/blob/master/schema/bio_metadata.proto)
