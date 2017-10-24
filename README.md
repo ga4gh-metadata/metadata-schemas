@@ -13,11 +13,11 @@ The web version of this page can be accessed [here](http://meta.ga4ghdata.org).
 
 
 ---
-{% include_relative doc/shared.md %}
+{% include_relative docs/shared.md %}
 ---
-{% include_relative doc/biometadata.md %}
+{% include_relative docs/biometadata.md %}
 ---
-{% include_relative doc/assaymetadata.md %}
+{% include_relative docs/assaymetadata.md %}
 ---
 
 
