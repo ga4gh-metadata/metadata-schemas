@@ -18,8 +18,8 @@ item" against which molecular variants are referenced.
 
 Attribute | Notes
 --- | ---
-*id* | <li>the Biosample's id</li><li>unique in the context of the server</li><li>used for referencing this Biosample</li>
-*name* | <li>a human readable object label/identifier</li><li>not to be used for referencing</li>
+*id* | <ul><li>the Biosample's id</li><li>unique in the context of the server</li><li>used for referencing this Biosample</li></ul>
+*name* | <ul><li>a human readable object label/identifier</li><li>not to be used for referencing</li></ul>
 *description* | additional, unstructured information about this Biosample
 *bio_characteristics* | contains lists of phenotypes, diseases and other information associated with this Biosample, in the form of BioCharacteristic objects
 *individualId* | the *id* of the *Individual* this Biosample was derived from
@@ -45,8 +45,8 @@ be described in analysis results.
 
 Attribute | Notes
 --- | ---
-*id* | <li>the Individual's id</li><li>unique in the context of the server</li><li>used for referencing this Individual</li>
-*name* | <li>a human readable object label/identifier</li><li>not to be used for referencing</li>
+*id* | <ul><li>the Individual's id</li><li>unique in the context of the server</li><li>used for referencing this Individual</li></ul>
+*name* | <ul><li>a human readable object label/identifier</li><li>not to be used for referencing</li></ul>
 *description* | additional, unstructured information about this Individual
 *bio_characteristics* | contains lists of phenotypes, diseases and other information associated with this Individual, in the form of BioCharacteristic objects
 *species*  | OntologyTerm representing the species (NCBITaxon:9606)

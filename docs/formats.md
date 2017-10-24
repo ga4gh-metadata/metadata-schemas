@@ -7,7 +7,7 @@ Attribute        | Note
 --- | ---
 *id*            | the objects ID, used for references at the level of the databas/server instance; locally unique
 *name*          | a more descriptive object label/identifier
-*description*   | <li>a string describing aspects of the object</li><li>*not* to be used for a list or nested object</li>
+*description*   | <ul><li>a string describing aspects of the object</li><li>*not* to be used for a list or nested object</li></ul>
 *created*       | the time the record was created, in ISO8601 (see below)
 *updated*       | the time the record was updated, in ISO8601 (see below)
 
