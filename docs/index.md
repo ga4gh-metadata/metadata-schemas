@@ -9,20 +9,35 @@ The *GA4GH-Metadata* repository contains definitions for structures, relations a
 The metadata specifications presented here were developed by the GA4GH's Metadata Task Team, as part of the (now frozen) general [GA4GH data schema](https://github.com/ga4gh/ga4gh-schemas/).
 
 [Metadata Specifications on Github](https://github.com/ga4gh-metadata/ga4gh-metadata/)
+
+
+## Metadata API
+
+### Goals and Scope
+
+* standardized use of common attributes/values
+* a schema of how objects relate to each other
+
+The metadata API provides information on the primary data objects
+available via the GA4GH API, and facilities to organize primary data
+objects.
+
+#### Common / shared
+* [Documentation](shared.html)
 * [download *common metadata elements* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/shared.proto)
-* [download *bio metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/biometadata.proto)
+
+#### Assay-Metadata
+* [Documentation](assaymetadata.html)
 * [download *assay metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/assaymetadata.proto)
 
-The web version of this page can be accessed [here](http://meta.ga4ghdata.org).
+#### Bio-Metadata
+* [Documentation](biometadata.html)
+* [download *bio metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/biometadata.proto)
 
 
+
 ---
-{% include_relative shared.md %}
----
-{% include_relative biometadata.md %}
----
-{% include_relative assaymetadata.md %}
----
+{% include_relative formats.md %}
 
 
 <!--
