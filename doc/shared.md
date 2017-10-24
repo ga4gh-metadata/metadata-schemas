@@ -1,11 +1,6 @@
-.. _metadata:
+## Metadata API
 
-************
-Metadata API
-************
-
-Goals and Scope
----------------
+### Goals and Scope
 
 * standardized use of common attributes/values
 * a schema of how objects relate to each other
@@ -14,62 +9,30 @@ The metadata API provides information on the primary data objects
 available via the GA4GH API, and facilities to organize primary data
 objects.
 
-Metadata Records
-----------------
-
-:ref:`Dataset<metadata_dataset>`
-====================================
-
-All GA4GH data objects are part of a *dataset*. A dataset is a
-data-provider-specified collection of related data of multiple types.
-Logically, it's akin to a folder, where it's up to the provider what
-goes into the folder. Individual data objects are linked by
-`datasetId` fields to `Dataset objects
-<../schemas/metadata.proto.html#protobuf.Dataset>`_.
-
-Common Attribute Names and Formats
-----------------------------------
+### Common Attribute Names and Formats
 
 Throughout the schema definitions, a consistent use of common attributes should
 be enforced. The following list should serve as guidance for schema developers.
 
-========================= ======================================================
-Attribute                 Note
-========================= ======================================================
-*id*                      the objects ID, used for references at the level of
-                          the databas/server instance; locally unique
-*name*                    a more descriptive object label/identifier
-*description*             a string describing aspects of the object; *not* to
-                          be used for a list or nested object
-*created*                 the time the record was created, in ISO8601
-                          (see :ref:`Date and Time<metadata_date_time>`)
-*updated*                 the time the record was updated, in ISO8601
-                          (see :ref:`Date and Time<metadata_date_time>`)
-========================= ======================================================
+Attribute        | Note
+--- | ---
+*id*            | the objects ID, used for references at the level of the databas/server instance; locally unique
+*name*          | a more descriptive object label/identifier
+*description*   | <li>a string describing aspects of the object</li><li>*not* to be used for a list or nested object</li>
+*created*       | the time the record was created, in ISO8601 (see below)
+*updated*       | the time the record was updated, in ISO8601 (see below)
 
-.. _metadata_date_time:
 
-Date and Time Format Specifications
------------------------------------
-.. _ISO8601: https://www.w3.org/TR/NOTE-datetime
+#### Date and Time Format Specifications
 
-Date and time formats are specified as ISO8601_ compatible strings, both for
+* external information: [ISO8601](https://www.w3.org/TR/NOTE-datetime)
+
+Date and time formats are specified as ISO8601 compatible strings, both for
 time points as well as for intervals and durations.
 An optional required granularity may be specified as part of the respective
 attributes' documentations.
 
-Time points
-===========
-
-The specification of a time point is given through the concatenation of
-
-* a date in YYYY-MM-DD
-* the designator "T" indicating a following time description
-* the time of day in HH:MM:SS.SSS form, where "SSS" represents a decimal
-  fraction of a second
-* a time zone offset in relation to UTC
-
-Units of time are:
+##### Units of time
 
 * *Y* = year
 * *M* = month
@@ -78,6 +41,17 @@ Units of time are:
 * *M* = minute
 * *S* = second
 * *.S* = decimal fraction of a second
+
+
+##### Time points
+
+The specification of a time point is given through the concatenation of
+
+* a date in YYYY-MM-DD
+* the designator "T" indicating a following time description
+* the time of day in HH:MM:SS.SSS form, where "SSS" represents a decimal
+  fraction of a second
+* a time zone offset in relation to UTC
 
 **Examples**
 
@@ -98,9 +72,8 @@ Units of time are:
 * updated (ubiquitous object time stamp)
 * created (ubiquitous object time stamp)
 
-Durations
-=========
 
+##### Durations
 
 Durations are the most common form of time intervals. They do not refer to
 (e.g. start or end) time points.
@@ -127,8 +100,7 @@ e.g. "age at diagnosis"; but also "progression free survival", "followup" or "ti
       an in vitro treatment experiment; recurring drug doses in a chemotherapy
       treatment).
 
-Time intervals
-==============
+##### Time intervals
 
 Time intervals consist of a combination of two time designators. These can be
 either two time points for start and end, or one time point and a leading
@@ -152,17 +124,17 @@ While such anchored time intervals represent an option to capture different time
     - 2014-12-31T23H45M/PT30M
     - Here is an example for a short term intervention of a 30 minutes duration, e.g. the celebratory exposure to a diluted sample of EtOH with various organic trace compounds, to celebrate the arrival of the new year.
 
-Dataset
--------
 
-.. _metadata_dataset:
+
+### Metadata Records
+
+#### Dataset
 
 All GA4GH data objects are part of a *dataset*. A dataset is a
 data-provider-specified collection of related data of multiple types.
 Logically, it's akin to a folder, where it's up to the provider what
 goes into the folder. Individual data objects are linked by
-`datasetId` fields to `Dataset objects
-<../schemas/metadata.proto.html#protobuf.Dataset>`_.
+`datasetId` fields to [Dataset objects](../schemas/shared.proto).
 
 Since the grouping of content in a dataset is determined by the data
 provider, users should not make semantic assumptions about that data.
