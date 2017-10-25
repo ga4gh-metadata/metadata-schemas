@@ -19,7 +19,7 @@ message GAException {
 
 // Identifier from a public database, describing a representation of
 // the record, and the relation between record and external reference
-// (e.g. as IAO property)
+// TODO: relation as OntologyTerm object (e.g. as IAO property).
 // Example:
 //  {
 //    "relation" : "reported_in",
