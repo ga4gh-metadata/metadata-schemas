@@ -1,3 +1,7 @@
+---
+title: Assaymetadata: Experiment and Analysis
+---
+
 ## Assaymetadata: _Experiment_ Object
 
 _Experiment_ in the GA4GH Metadata Schema

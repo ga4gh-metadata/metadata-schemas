@@ -1,3 +1,7 @@
+---
+title: BioMetadata: Biosample & Individual
+---
+
 ## BioMetadata: *Biosample* Object
 
 ### Biosample in the GA4GH Schema

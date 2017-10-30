@@ -1,6 +1,16 @@
-### Metadata Records
+---
+title: Common - Dataset and Low Level Objects
+---
 
-#### Dataset
+### OntologyTerm
+
+... tbd. ...
+
+### ExternalIdentifier
+
+... tbd. ...
+
+### Dataset
 
 All GA4GH data objects are part of a *dataset*. A dataset is a
 data-provider-specified collection of related data of multiple types.
