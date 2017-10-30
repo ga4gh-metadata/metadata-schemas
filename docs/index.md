@@ -41,13 +41,9 @@ objects.
 
 ---
 
-
-{% include_relative ./examples/biometadata.json %}
-
-<!--
-
 {% include_relative formats.md %}
 
 
+<!--
 [Bio-Metadata (full path)](https://github.com/ga4gh-metadata/ga4gh-metadata/blob/master/schema/bio_metadata.proto)
 -->
