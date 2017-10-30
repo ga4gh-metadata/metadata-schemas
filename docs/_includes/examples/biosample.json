@@ -1,0 +1,72 @@
+{
+	"id" : "PGX_AM_BS_GSM510730",
+	"individual_id" : "PGX_IND_GSM510730",
+	"name" : "PGX_AM_BS_GSM510730",
+	"description" : "breast carcinoma",
+	"bio_characteristics" : [
+		{
+			"description" : "breast carcinoma",
+			"ontology_terms" : [
+				{
+					"term_id" : "NCIT:C4017",
+					"term_label" : "Ductal Breast Carcinoma"
+				},
+				{
+					"term_id" : "SNMI:M-85003",
+					"term_label" : "invasive carcinoma of no special type"
+				},
+				{
+					"term_id" : "PGX:ICDOM:8500_3",
+					"term_label" : "invasive carcinoma of no special type"
+				},
+				{
+					"term_id" : "PGX:ICDOT:C50",
+					"term_label" : "breast"
+				},
+				{
+					"term_id" : "PGX:SEER:26000",
+					"term_label" : "Breast"
+				}
+			],
+			"negated_ontology_terms" : [ ],
+		}
+	],
+	"individual_age_at_collection" : "P47Y",
+	"attributes" : {
+		"tnm" : {
+			"values" : [
+				{
+					"string_value" : "T1N0M0"
+				}
+			]
+		},
+		"death" : {
+			"values" : [
+				{
+					"string_value" : "0"
+				}
+			]
+		},
+	"location" : {
+		"geo_label" : "Oslo, Norway",
+		"latitude" : 59.91,
+		"longitude" : 10.75,
+		"geo_precision" : "city"
+	},
+	"external_identifiers" : [
+		{
+			"database" : "Pubmed",
+			"identifier" : "20592421"
+		},
+		{
+			"database" : "GEO",
+			"identifier" : "GSM510730"
+		},
+		{
+			"database" : "GEO",
+			"identifier" : "GSE20394"
+		}
+	],
+	"created" : ISODate("2017-03-20T08:37:07.771Z"),
+	"updated" : ISODate("2017-03-20T08:37:07.771Z"),
+}

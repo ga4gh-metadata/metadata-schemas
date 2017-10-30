@@ -22,6 +22,9 @@ The metadata API provides information on the primary data objects
 available via the GA4GH API, and facilities to organize primary data
 objects.
 
+#### General Data Formats & Standards
+* [Documentation](formats.html)
+
 #### Common / shared
 * [Documentation](shared.html)
 * [download *common metadata elements* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/shared.proto)
@@ -37,9 +40,14 @@ objects.
 
 
 ---
-{% include_relative formats.md %}
+
+{% include biometadata.json %}
 
 
 <!--
+
+{% include_relative formats.md %}
+
+
 [Bio-Metadata (full path)](https://github.com/ga4gh-metadata/ga4gh-metadata/blob/master/schema/bio_metadata.proto)
 -->
