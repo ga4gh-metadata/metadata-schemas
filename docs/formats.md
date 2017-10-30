@@ -1,4 +1,8 @@
-### Common Attribute Names and Formats
+---
+title: Common Attribute Names and Formats
+---
+
+## Common Attribute Names and Formats
 
 Throughout the schema definitions, a consistent use of common attributes should
 be enforced. The following list should serve as guidance for schema developers.
