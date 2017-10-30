@@ -41,7 +41,7 @@ objects.
 
 ---
 
-{% include examples/biometadata.json %}
+{% include_relative examples/biometadata.json %}
 
 
 <!--
