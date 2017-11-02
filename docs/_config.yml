@@ -1,7 +1,7 @@
-#theme: jekyll-theme-slate
+theme: jekyll-theme-slate
 title: GA4GH Metadata Specifications
 email: meta@ga4ghdata.org
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 BASE_PATH: /ga4gh-metadata/docs
