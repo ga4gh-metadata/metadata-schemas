@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#", 
+    "additionalProperties": false, 
+    "description": "An ontology term describing an attribute. (e.g. the phenotype attribute 'polydactyly' from HPO)", 
+    "properties": {
+        "term_id": {
+            "description": "  // Ontology term identifier - the CURIE for an ontology term.", 
+            "type": "string"
+        }, 
+        "term_label": {
+            "description": "The label of the ontology term the term_id is pointing to.", 
+            "type": "string"
+        }
+    }, 
+    "required": [
+        "term_id"
+    ], 
+    "title": "ontology_term", 
+    "type": "object"
+}
