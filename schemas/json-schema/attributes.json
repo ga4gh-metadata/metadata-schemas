@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+
+  "type": "object",
+  "description": "Object defining a collection of attributes associated with various protocol records. Each attribute is a name that maps to an array of one or more values. Values should be split into array elements instead of using a separator syntax that needs to parsed.",
+  "anyOf": [
+    { "type": ["string", 
+               "number", 
+               "boolean", 
+               {"$ref": "https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/json-schema/external_identifier.json"}, 
+               {"$ref": "https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/json-schema/ontology_term.json"}
+             ]
+    }
+  ]
+
+}
