@@ -25,9 +25,9 @@ objects.
 #### General Data Formats & Standards
 * [Documentation](formats.html)
 
-#### Common / shared
+#### Shared Objects
 * [Documentation](shared.html)
-* [download *common metadata elements* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/shared.proto)
+* [download *shared metadata elements* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/shared.proto)
 
 #### Assay-Metadata
 * [Documentation](assaymetadata.html)
@@ -40,7 +40,7 @@ objects.
 
 
 ---
-  
+
 <!--
 
 {% include_relative formats.md %}
