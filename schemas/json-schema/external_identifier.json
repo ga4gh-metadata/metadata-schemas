@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#", 
+    "additionalProperties": false, 
+    "description": "An external identifier that could be used to denote other objects", 
+    "properties": {
+        "identifier": {
+            "description": "The CURIE of the external identifier", 
+            "type": "string"
+        }, 
+        "relation": {
+            "description": "The relation between the external identifier and the object it was reported from.", 
+            "type": "string"
+        }
+    }, 
+    "required": [
+        "identifier"
+    ], 
+    "title": "external_identifier", 
+    "type": "object"
+}
