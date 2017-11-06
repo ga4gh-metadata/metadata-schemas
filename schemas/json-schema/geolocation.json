@@ -5,7 +5,7 @@
   "description": "A geolocation object provides information about a geographic position related to a record. Examples could be: an address, e.g. of a lab performing an analysis, provenance of an individual, obfuscated to a larger order administrative entity (Suffolk, U.K.), a lat/long/alt position where an environmental sample was collected. he geographic point object uses the default units from the DCMI point scheme and avoids optional representation in non-standard units.", 
   "properties": {
       "allOf": [
-        { "$ref": "http://json-schema.org/geo" }, //reuse the existing geo object from json schema
+        { "$ref": "http://json-schema.org/geo" },
         { "properties":
           { "precision": { 
               "type": "string",
