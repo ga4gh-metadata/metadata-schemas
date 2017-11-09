@@ -8,23 +8,19 @@
 			"description" : "breast carcinoma",
 			"ontology_terms" : [
 				{
-					"term_id" : "NCIT:C4017",
+					"term_id" : "ncit:C4017",
 					"term_label" : "Ductal Breast Carcinoma"
 				},
 				{
-					"term_id" : "SNMI:M-85003",
+					"term_id" : "pgx:icdom:8500_3",
 					"term_label" : "invasive carcinoma of no special type"
 				},
 				{
-					"term_id" : "PGX:ICDOM:8500_3",
-					"term_label" : "invasive carcinoma of no special type"
-				},
-				{
-					"term_id" : "PGX:ICDOT:C50",
+					"term_id" : "pgx:icdot:C50",
 					"term_label" : "breast"
 				},
 				{
-					"term_id" : "PGX:SEER:26000",
+					"term_id" : "pgx:seer:26000",
 					"term_label" : "Breast"
 				}
 			],
@@ -43,7 +39,7 @@
 		"death" : {
 			"values" : [
 				{
-					"string_value" : "0"
+					"string_value" : "alive"
 				}
 			]
 		},
@@ -55,16 +51,13 @@
 	},
 	"external_identifiers" : [
 		{
-			"database" : "Pubmed",
-			"identifier" : "20592421"
+			"identifier" : "pubmed:20592421"
 		},
 		{
-			"database" : "GEO",
-			"identifier" : "GSM510730"
+			"identifier" : "geo:GSM510730"
 		},
 		{
-			"database" : "GEO",
-			"identifier" : "GSE20394"
+			"identifier" : "geo:GSE20394"
 		}
 	],
 	"created" : ISODate("2017-03-20T08:37:07.771Z"),
