@@ -8,7 +8,10 @@ The *GA4GH-Metadata* repository contains definitions for structures, relations a
 
 The metadata specifications presented here were developed by the GA4GH's Metadata Task Team, as part of the (now frozen) general [GA4GH data schema](https://github.com/ga4gh/ga4gh-schemas/).
 
-[Metadata Specifications on Github](https://github.com/ga4gh-metadata/ga4gh-metadata/)
+* [Metadata Specifications on Github](https://github.com/ga4gh-metadata/ga4gh-metadata/)
+* [Metadata Wiki](https://github.com/ga4gh-metadata/metadata-schemas/wiki)
+    * provides additional documentation, to facilitate understanding how the current schema emerged
+    * links to archival docs, e.g. GA4GH Metadata Task Team discussions
 
 
 ## Metadata API
