@@ -32,9 +32,11 @@ Attribute | Notes
 *updated* | the time the record was updated, in ISO8601
 *attributes* | additional, structured information
 
-Examples:
+#### Examples:
 
-```
+Age definition:
+
+```json
 "individual_age_at_collection" : {
   "age" : "P6Y0M",
   "age_class" : {
@@ -42,6 +44,26 @@ Examples:
     "term_id" : "HP:0003621"
   }
 },
+```
+
+Structured representation of custom attributes:
+
+```json
+"attributes" : {
+  "tnm" : {
+    "values" : [
+      {
+        "string_value" : "T1N0M0"
+      }
+    ]
+  },
+  "death" : {
+    "values" : [
+      {
+        "string_value" : "alive"
+      }
+    ]
+  },
 ```
 
 
