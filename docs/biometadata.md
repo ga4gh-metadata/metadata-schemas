@@ -26,10 +26,23 @@ Attribute | Notes
 *name* | <ul><li>a human readable object label/identifier</li><li>not to be used for referencing</li></ul>
 *description* | additional, unstructured information about this Biosample
 *bio_characteristics* | contains lists of phenotypes, diseases and other information associated with this Biosample, in the form of BioCharacteristic objects
+*individual_age_at_collection* | an *age* object, representing the age of the individual at the time the sample was taken; with information expressed in ISO8601 and/or an ontology class
 *individualId* | the *id* of the *Individual* this Biosample was derived from
 *created* | the time the record was created, in ISO8601
 *updated* | the time the record was updated, in ISO8601
 *attributes* | additional, structured information
+
+Examples:
+
+```
+"individual_age_at_collection" : {
+  "age" : "P6Y0M",
+  "age_class" : {
+    "term" : "Juvenile onset",
+    "term_id" : "HP:0003621"
+  }
+},
+```
 
 
 ## BioMetadata: *Individual* Object
@@ -58,7 +71,6 @@ Attribute | Notes
 *created* | the time the record was created, in ISO8601
 *updated* | the time the record was updated, in ISO8601
 *attributes* | additional, structured information
-
 
 ## BioMetadata: *BioCharacteristic* Object
 
