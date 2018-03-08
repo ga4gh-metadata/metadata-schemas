@@ -69,3 +69,28 @@ through the use of a free text description and a representation by one or
 more "ontologyTerms" objects as well as zero or more "negatedOntologyTerms".
 An additional "scope" attribute allows to limit queries e.g. to "disease" type
 objects.
+
+Example use:
+
+```json
+"bio_characteristics" : [
+  {
+    "description" : "Diffuse Intrinsic Pontine Glioma",
+    "ontology_terms" : [
+      {
+        "term_label" : "Glioma",
+        "term_id" : "ncit:C3059"
+      },
+      {
+        "term_label" : "Glioma NOS",
+        "term_id" : "pgx:icdom:9380_3"
+      },
+      {
+        "term_label" : "Brain NOS",
+        "term_id" : "pgx:icdot:C71.9"
+      }
+    ],
+    "negated_ontology_terms" : [ ]
+  }
+],
+```
